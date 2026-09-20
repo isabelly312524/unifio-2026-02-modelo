@@ -22,9 +22,9 @@ public class ParticipanteRepositorioTests {
     @Test
     public void deveSalvarUmParticipanteNovo() {
         var participante = new Participante();
-        participante.setNome("Rafael Martins");
-        participante.setEmail("rafael.martins@email.com");
-        participante.setTelefone("(14) 99999-0006");
+        participante.setNome("Isabelly Silva");
+        participante.setEmail("isabelly.silva@gmail.com");
+        participante.setTelefone("(14) 99845-3088");
 
         participanteRepositorio.save(participante);
 
